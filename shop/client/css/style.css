@@ -30,7 +30,6 @@ body {
 .clearfix{
     zoom:1;
 }
-
 .clearfix:after, .clearfix_new:after {
     clear: both;
     content: '\20';
@@ -41,4 +40,6 @@ img, input, textarea, button {
     border: 0;
     vertical-align: middle;
 }
-
+.fl {
+    float: left;
+}

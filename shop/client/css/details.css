@@ -34,6 +34,25 @@ img {
     padding-bottom: 50px;
     width: 1240px;
 }
+.qikoo-header-with-cate .header-box {
+    padding-bottom: 60px;
+}
+.qikoo-header-with-cate .category-box {
+    background: transparent;
+    height: auto;
+}
+.qikoo-header-with-cate .category-item.item-all {
+    background: #333;
+    bottom: 100%;
+    position: absolute;
+    width: 100%;
+}
+.qikoo-header-with-cate .category-list {
+    background-color: #333;
+    background: rgba(51,51,51,.7);
+    height: 0;
+    overflow: hidden;
+}
 .sPic {
     float: left;
     margin-right: 80px;
