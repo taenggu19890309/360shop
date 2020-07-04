@@ -1,0 +1,314 @@
+#doc {
+    background: #f5f5f5;
+    font: 14px "Microsoft YaHei";
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+span a:hover {
+    color: #22ac69;
+}
+a:hover {
+    color: #1eb009;
+}
+.quc-clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.reg-page {
+    background: #f5f5f5;
+}
+#regHeader {
+    background: #e8e8e8;
+    padding: 10px 0;
+    width: 100%;
+}
+#regHeader .header-content {
+    margin: 0 auto;
+    width: 700px;
+}
+#regHeader .header-content .switch-login {
+    color: #7d7d7d;
+    float: right;
+    font-size: 14px;
+    line-height: 48px;
+}
+#regHeader .header-content span {
+    display: inline-block;
+    vertical-align: middle;
+}
+#regHeader .logo {
+    background: url(https://p.ssl.qhimg.com/t010a5074fc49da7955.png);
+    height: 48px;
+    margin-right: 25px;
+    width: 168px;
+}
+#regHeader .header-content .page-title {
+    border-left: 1px solid #929292;
+    color: #222;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 25px;
+}
+.reg-content, #regWrap {
+    min-height: 540px;
+    width: 700px;
+}
+.reg-content {
+    margin: 72px auto 0;
+}
+#regWrap .reg-title {
+    background: #fff;
+    border-bottom: 2px solid #f5f5f5;
+    color: #222;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.quc-wrapper {
+    font-size: 12px;
+    line-height: 1em;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,微软雅黑,Arial,SimSun,sans-serif;
+}
+.quc-wrapper dd, .quc-wrapper div, .quc-wrapper dl, .quc-wrapper dt, .quc-wrapper form, .quc-wrapper i, .quc-wrapper label, .quc-wrapper li, .quc-wrapper ol, .quc-wrapper p, .quc-wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: auto;
+    height: auto;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+.quc-mod-sign-up {
+    background: #fff;
+    width: 500px;
+}
+.quc-mod-sign-up div.quc-main {
+    border: 0;
+    box-shadow: none;
+    float: none;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.quc-mod-sign-up .quc-main {
+    float: left;
+    width: 380px;
+    padding: 0 0 20px 20px;
+    border-left: 1px solid #e4ebec;
+    background: #fff;
+    -webkit-box-shadow: -7px 0 5px -3px #f8f9f9;
+    -moz-box-shadow: -7px 0 5px -3px #f8f9f9;
+    box-shadow: -7px 0 5px -3px #f8f9f9;
+}
+.quc-mod-sign-up div.quc-tip-wrapper {
+    margin: -20px 0 20px;
+    padding: 0;
+}
+.quc-mod-sign-up .quc-tip-wrapper {
+    height: 21px;
+    line-height: 21px;
+    padding: 3px 0 0 75px;
+}
+
+.quc-mod-sign-up p.quc-field-mobile, .quc-mod-sign-up p.quc-field-password {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    height: 42px;
+}
+.quc-mod-sign-up .quc-field-mobile span.quc-input-bg, .quc-mod-sign-up .quc-field-password span.quc-input-bg {
+    display: inline-block;
+    height: 42px;
+    margin: 0;
+    width: auto;
+}
+.quc-mod-sign-up p.quc-field-mobile .quc-label {
+    background: url(https://p.ssl.qhimg.com/t01bcac1258460cdd4c.png) no-repeat;
+    display: inline-block;
+    height: 18px;
+    margin: 0 8px;
+    vertical-align: middle;
+    width: 18px;
+}
+.quc-mod-sign-up .quc-main .quc-label {
+    display: inline-block;
+    width: 60px;
+    margin-right: 10px;
+    line-height: 31px;
+    font-size: 14px;
+    text-align: right;
+    color: #333;
+}
+.quc-mod-sign-up .quc-main .quc-input {
+    background: none;
+    border: 0;
+    line-height: 21px;
+    margin: 4px;
+    outline: none;
+    width: 320px;
+}
+.quc-mod-sign-up .quc-main .quc-tip {
+    display: block;
+    height: 20px;
+    margin: 7px 0;
+}
+.quc-wrapper .quc-tip-error {
+    color: red;
+}
+.quc-mod-sign-up .quc-field {
+    color: #959393;
+}
+.quc-mod-sign-up p.input-focus{
+    border: 1px solid #22ac69;
+}
+.quc-wrapper .quc-input {
+    width: 247px;
+    height: 21px;
+    margin: 5px 4px 3px;
+    padding: 6px 7px;
+    line-height: 20px;
+    color: grey;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    font-size: 14px;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.quc-mod-sign-up p.quc-field-password .quc-label {
+    background: url(https://p.ssl.qhimg.com/t010451798ff6b5d7f7.png) no-repeat;
+    display: inline-block;
+    height: 18px; 
+    margin: 0 8px;
+    vertical-align: middle;
+    width: 18px;
+}
+.quc-mod-sign-up .quc-main .quc-label {
+    display: inline-block;
+    width: 60px;
+    margin-right: 10px;
+    line-height: 31px;
+    font-size: 14px;
+    text-align: right;
+    color: #333;
+}
+.quc-mod-sign-up .quc-field-captcha .quc-captcha-img {
+    float: right;
+    height: 40px;
+    margin: 3px 0 0;
+    vertical-align: baseline;
+    width: 100px;
+}
+.quc-mod-sign-up .quc-captcha-change {
+    cursor: pointer;
+}
+.quc-mod-sign-up .quc-captcha-img {
+    width: 99px;
+    height: 36px;
+    margin: 3px 0 4px 2px;
+    vertical-align: middle;
+}
+.quc-mod-sign-up .quc-field-captcha span.quc-input-bg {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    height: 40px;
+    margin: 3px 0 4px;
+    width: 256px;
+}
+.quc-mod-sign-up .quc-field-captcha .quc-input-bg .quc-input-captcha {
+    padding-left: 12px;
+    width: 229px;
+}
+.quc-input-short .quc-input-bg {
+    width: 120px;
+    background-position: 0 -575px;
+}
+.quc-wrapper .quc-input-bg {
+    display: inline-block;
+    width: 270px;
+    height: 42px;
+    vertical-align: middle;
+}
+.quc-mod-sign-up .quc-next-step .quc-nextAndGet-sms-token {
+    background: #22ac69;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+.quc-mod-sign-up p.quc-field-licence {
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+}
+.quc-wrapper .quc-checkbox, .quc-wrapper .quc-radio {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.quc-wrapper input, .quc-wrapper select, .quc-wrapper textarea {
+    outline: 0;
+}
+.quc-mod-sign-up .quc-field-licence label span {
+    vertical-align: middle;
+}
+.quc-wrapper a.quc-link:hover {
+    text-decoration: underline;
+}
+.quc-mod-sign-up .quc-field-licence a.quc-link {
+    color: #22ac69;
+}
+.quc-wrapper a:active, .quc-wrapper a:hover {
+    outline-width: 0;
+}
+.quc-wrapper a.quc-link, .quc-wrapper a.quc-link:active {
+    color: #0082cb;
+}
+/* other-info */
+.other-info {
+    margin: 40px 0 20px;
+    text-align: center;
+}
+.other-info span {
+    padding: 0 15px;
+}
+.gray-line {
+    border-right: 1px solid #828282;
+}
+.other-info span a:hover {
+    color: #22ac69;
+}
+.other-info span {
+    padding: 0 15px;
+}
+.other-info span a {
+    color: #828282;
+}
+/* ft */
+body #ft {
+    padding: 0 0 10px;
+}
+#ft, #ft a {
+    color: #999;
+}
+#ft {
+    padding: 35px 0 10px;
+    text-align: center;
+}
+#ft p a img {
+    vertical-align: middle;
+}
